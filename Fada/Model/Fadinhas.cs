@@ -147,12 +147,12 @@ namespace Model
 
                  if (value < 3)
                  {
-                     throw new Exception("Tamanho deve conter no mínimo 4 caracteres");
+                     throw new Exception("Tamanho deve ser de no mínimo 3 metros");
                  }
 
                  if (value > 20)
                  {
-                     throw new Exception("Tamanho deve conter no máximo 20 caracteres");
+                     throw new Exception("Tamanho deve ser de no máximo 20 metros");
                  }
                  tamanhoAsa = value;
              }
@@ -185,6 +185,8 @@ namespace Model
                  elemento = value;
              }
          }
+
+        
 
 
 

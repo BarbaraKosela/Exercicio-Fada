@@ -213,6 +213,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "APAGAR AO CADASTRO \r\nNORMAL";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -501,6 +502,7 @@
             this.btnCancelarFadinha.TabIndex = 21;
             this.btnCancelarFadinha.Text = "CANCELAR";
             this.btnCancelarFadinha.UseVisualStyleBackColor = false;
+            this.btnCancelarFadinha.Click += new System.EventHandler(this.btnCancelarFadinha_Click);
             // 
             // btnSalvarFadinha
             // 
@@ -560,6 +562,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "ADICIONAR AO CADASTRO\r\nRÁPIDO";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -757,6 +760,7 @@
             this.btnSalvarRapido.TabIndex = 33;
             this.btnSalvarRapido.Text = "SALVAR";
             this.btnSalvarRapido.UseVisualStyleBackColor = false;
+            this.btnSalvarRapido.Click += new System.EventHandler(this.btnSalvarRapido_Click);
             // 
             // btnCancelarRapido
             // 

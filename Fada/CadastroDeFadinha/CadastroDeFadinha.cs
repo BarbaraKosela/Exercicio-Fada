@@ -150,5 +150,48 @@ namespace CadastroDeFadinha
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.Rows.Count == 0)
+            {
+                MessageBox.Show("Cadastre uma fadinha!");
+                tabControl1.SelectedIndex = 2;
+                return;
+            }
+            if (dataGridView1.CurrentRow == null)
+            {
+                MessageBox.Show("Selecione um arquivo para apagar");
+                return;
+            }
+
+            int linhaSelecionada = dataGridView1.CurrentRow.Index;
+            string nome = dataGridView1.Rows[linhaSelecionada].Cells[0].Value.ToString();
+            for (int i = 0; i < fadinha.Count(); i++)
+            {
+                Fadinhas fadinhas = fadinha[i];
+                if (fadinhas.Nome == nome)
+                {
+                    fadinha.RemoveAt(i);
+                }
+            }
+
+            dataGridView1.Rows.RemoveAt(linhaSelecionada);
+        }
+
+        private void btnCancelarFadinha_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 0;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 3;
+        }
+
+        private void btnSalvarRapido_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
