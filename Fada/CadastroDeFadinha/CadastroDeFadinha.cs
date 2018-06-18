@@ -29,7 +29,7 @@ namespace CadastroDeFadinha
 
         private void button3_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 2;
+            tabControl1.SelectedIndex = 1;
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -124,7 +124,7 @@ namespace CadastroDeFadinha
             if (dataGridView1.Rows.Count == 0)
             {
                 MessageBox.Show("Cadastre uma fadinha!");
-                tabControl1.SelectedIndex = 2;
+                tabControl1.SelectedIndex = 1;
                 return;
             }
             if (dataGridView1.CurrentRow == null)
@@ -145,7 +145,7 @@ namespace CadastroDeFadinha
                     txtTamanhoAsa.Text = Convert.ToString(fadinhas.TamanhoAsa);
                     txtElemento.Text = fadinhas.Elemento;
                     nomeAntigo = fadinhas.Nome;
-                    tabControl1.SelectedIndex = 2;
+                    tabControl1.SelectedIndex = 1;
                     break;
                 }
             }
@@ -156,7 +156,7 @@ namespace CadastroDeFadinha
             if (dataGridView1.Rows.Count == 0)
             {
                 MessageBox.Show("Cadastre uma fadinha!");
-                tabControl1.SelectedIndex = 2;
+                tabControl1.SelectedIndex = 1;
                 return;
             }
             if (dataGridView1.CurrentRow == null)
@@ -186,12 +186,59 @@ namespace CadastroDeFadinha
 
         private void button6_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 3;
+            tabControl1.SelectedIndex = 1;
         }
 
         private void btnSalvarRapido_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Fadinhas fadinhas = new Fadinhas();
 
+                {
+
+
+                    fadinhas.Nome = txtNome.Text;
+                    fadinhas.Familia = txtFamilia.Text;
+                    fadinhas.Cor = txtCor.Text;
+                    
+                };
+
+                if (nomeAntigo == "")
+                {
+                    fadinha.Add(fadinhas);
+                    MessageBox.Show("Cadastrado com sucesso");
+                    AdicionarFadaATabela(fadinhas);
+                }
+                else
+                {
+                    int linha = fadinha.FindIndex(x => x.Nome == nomeAntigo);
+                    fadinha[linha] = fadinhas;
+                    EditarFadinhaNaTabela(fadinhas, linha);
+                    MessageBox.Show("Alterado com sucesso");
+                    nomeAntigo = string.Empty;
+                }
+                LimparCampos();
+                tabControl1.SelectedIndex = 0;
+            }
+
+            catch (Exception e1)
+            {
+                MessageBox.Show(e1.Message);
+            }
+            
         }
+
+        
+
+       
+
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+        }
+
+       
     }
 }
