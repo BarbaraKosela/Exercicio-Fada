@@ -181,7 +181,7 @@ namespace CadastroDeFadinha
 
         private void btnCancelarFadinha_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 0;
+            LimparCampos();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -237,6 +237,18 @@ namespace CadastroDeFadinha
         private void button4_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 2;
+        }
+
+        private void btnCancelarRapido_Click(object sender, EventArgs e)
+        {
+            LimparCampos2();
+        }
+
+        private void LimparCampos2()
+        {
+            txtNome.Text = "";
+            txtFamilia.Text = "";
+            txtCor.Text = "";
         }
 
        
