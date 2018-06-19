@@ -186,6 +186,20 @@ namespace Model
                  elemento = value;
              }
          }
+         public bool EhMulher
+         {
+             get
+             {
+                 return ehMulher;
+             }
+
+             set
+             {
+                 ehMulher = value;
+             }
+         }
+
+
 
          
 

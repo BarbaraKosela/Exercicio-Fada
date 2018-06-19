@@ -108,7 +108,7 @@ namespace CadastroDeFadinha
         private void AdicionarFadaATabela(Fadinhas fadinhas)
         {
             dataGridView1.Rows.Add(new Object[]{
-                fadinhas.Nome, fadinhas.Familia, fadinhas.Cor, fadinhas.CorAsa, fadinhas.TamanhoAsa, fadinhas.Elemento
+                fadinhas.Nome, fadinhas.Familia, fadinhas.Cor, fadinhas.CorAsa, fadinhas.TamanhoAsa, fadinhas.Elemento, fadinhas.EhMulher
             });
         }
 
@@ -201,6 +201,15 @@ namespace CadastroDeFadinha
                     fadinhas.Nome = txtNome.Text;
                     fadinhas.Familia = txtFamilia.Text;
                     fadinhas.Cor = txtcoor.Text;
+                    if (RBSIM.Checked)
+                    {
+                        fadinhas.EhMulher = true;
+                    }
+
+                    else if (RBNAO.Checked)
+                    {
+                        fadinhas.EhMulher = false;
+                    }
                     
                 };
 

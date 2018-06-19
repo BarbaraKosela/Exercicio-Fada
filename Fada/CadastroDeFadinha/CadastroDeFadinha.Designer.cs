@@ -80,8 +80,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.RBNAO = new System.Windows.Forms.RadioButton();
+            this.RBSIM = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -103,6 +103,7 @@
             this.txtElemento = new System.Windows.Forms.ComboBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tbLista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -181,7 +182,8 @@
             this.Column1Cor,
             this.Column1CorAsa,
             this.Column1TamanhoAsa,
-            this.Column1Elemento});
+            this.Column1Elemento,
+            this.Column1});
             this.dataGridView1.Location = new System.Drawing.Point(20, 83);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -716,8 +718,8 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.radioButton5);
-            this.groupBox4.Controls.Add(this.radioButton6);
+            this.groupBox4.Controls.Add(this.RBNAO);
+            this.groupBox4.Controls.Add(this.RBSIM);
             this.groupBox4.Location = new System.Drawing.Point(620, 117);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(191, 110);
@@ -730,35 +732,35 @@
             this.label19.BackColor = System.Drawing.Color.Indigo;
             this.label19.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(65, 2);
+            this.label19.Location = new System.Drawing.Point(42, 2);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(61, 20);
+            this.label19.Size = new System.Drawing.Size(108, 20);
             this.label19.TabIndex = 40;
-            this.label19.Text = "SEXO:";
+            this.label19.Text = "É MULHER?";
             // 
-            // radioButton5
+            // RBNAO
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(31, 64);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(131, 24);
-            this.radioButton5.TabIndex = 42;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "MASCULINO";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.RBNAO.AutoSize = true;
+            this.RBNAO.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBNAO.Location = new System.Drawing.Point(60, 64);
+            this.RBNAO.Name = "RBNAO";
+            this.RBNAO.Size = new System.Drawing.Size(65, 24);
+            this.RBNAO.TabIndex = 42;
+            this.RBNAO.TabStop = true;
+            this.RBNAO.Text = "NÃO";
+            this.RBNAO.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // RBSIM
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(31, 34);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(116, 24);
-            this.radioButton6.TabIndex = 41;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "FEMINÍNO";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.RBSIM.AutoSize = true;
+            this.RBSIM.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBSIM.Location = new System.Drawing.Point(60, 34);
+            this.RBSIM.Name = "RBSIM";
+            this.RBSIM.Size = new System.Drawing.Size(60, 24);
+            this.RBSIM.TabIndex = 41;
+            this.RBSIM.TabStop = true;
+            this.RBSIM.Text = "SIM";
+            this.RBSIM.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -1035,6 +1037,12 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "É mulher?";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
             // CadastroDeFadinha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1131,8 +1139,8 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton RBNAO;
+        private System.Windows.Forms.RadioButton RBSIM;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -1150,6 +1158,7 @@
         private System.Windows.Forms.ComboBox txtCorAsa;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }
 
