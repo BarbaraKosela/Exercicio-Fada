@@ -925,7 +925,8 @@
             // txtCorFadinha
             // 
             this.txtCorFadinha.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCorFadinha.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtCorFadinha.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtCorFadinha.ForeColor = System.Drawing.SystemColors.Info;
             this.txtCorFadinha.FormattingEnabled = true;
             this.txtCorFadinha.Items.AddRange(new object[] {
             "Amarelo",
@@ -944,9 +945,10 @@
             // 
             // txtcoor
             // 
-            this.txtcoor.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtcoor.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtcoor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.txtcoor.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcoor.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtcoor.ForeColor = System.Drawing.SystemColors.Info;
             this.txtcoor.FormattingEnabled = true;
             this.txtcoor.Items.AddRange(new object[] {
             "Amarelo",
@@ -966,7 +968,8 @@
             // txtCorAsa
             // 
             this.txtCorAsa.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCorAsa.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtCorAsa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtCorAsa.ForeColor = System.Drawing.SystemColors.Info;
             this.txtCorAsa.FormattingEnabled = true;
             this.txtCorAsa.Items.AddRange(new object[] {
             "Amarelo",
@@ -986,7 +989,8 @@
             // txtElemento
             // 
             this.txtElemento.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtElemento.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtElemento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtElemento.ForeColor = System.Drawing.SystemColors.Info;
             this.txtElemento.FormattingEnabled = true;
             this.txtElemento.Items.AddRange(new object[] {
             "Fogo",

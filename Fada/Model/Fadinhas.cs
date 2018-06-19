@@ -85,6 +85,7 @@ namespace Model
                  if (string.IsNullOrEmpty(value))
                  {
                      throw new Exception("Cor deve ser preenchida");
+                     
                  }
 
                  if (value.Count() < 3)
