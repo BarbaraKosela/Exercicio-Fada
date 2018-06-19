@@ -174,9 +174,9 @@ namespace Model
                      throw new Exception("Elemento deve ser preenchido");
                  }
 
-                 if (value.Count() < 3)
+                 if (value.Count() < 2)
                  {
-                     throw new Exception("Elemento deve conter no mínimo 4 caracteres");
+                     throw new Exception("Elemento deve conter no mínimo 2 caracteres");
                  }
 
                  if (value.Count() > 20)

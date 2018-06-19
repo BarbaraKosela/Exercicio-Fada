@@ -251,6 +251,16 @@ namespace CadastroDeFadinha
             txtCor.Text = "";
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 0;
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 0;
+        }
+
        
     }
 }

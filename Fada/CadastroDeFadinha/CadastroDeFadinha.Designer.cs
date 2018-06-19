@@ -101,6 +101,8 @@
             this.txtcoor = new System.Windows.Forms.ComboBox();
             this.txtCorAsa = new System.Windows.Forms.ComboBox();
             this.txtElemento = new System.Windows.Forms.ComboBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tbLista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -272,6 +274,7 @@
             // 
             // tbCadastro
             // 
+            this.tbCadastro.Controls.Add(this.button6);
             this.tbCadastro.Controls.Add(this.txtElemento);
             this.tbCadastro.Controls.Add(this.txtCorAsa);
             this.tbCadastro.Controls.Add(this.txtCorFadinha);
@@ -574,6 +577,7 @@
             // txtCor
             // 
             this.txtCor.BackColor = System.Drawing.Color.White;
+            this.txtCor.Controls.Add(this.button5);
             this.txtCor.Controls.Add(this.txtcoor);
             this.txtCor.Controls.Add(this.label16);
             this.txtCor.Controls.Add(this.label14);
@@ -736,7 +740,7 @@
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(30, 55);
+            this.radioButton5.Location = new System.Drawing.Point(31, 64);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(131, 24);
             this.radioButton5.TabIndex = 42;
@@ -748,7 +752,7 @@
             // 
             this.radioButton6.AutoSize = true;
             this.radioButton6.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(30, 25);
+            this.radioButton6.Location = new System.Drawing.Point(31, 34);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(116, 24);
             this.radioButton6.TabIndex = 41;
@@ -1005,6 +1009,32 @@
             this.txtElemento.Size = new System.Drawing.Size(278, 24);
             this.txtElemento.TabIndex = 39;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Indigo;
+            this.button5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Location = new System.Drawing.Point(31, 373);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(118, 59);
+            this.button5.TabIndex = 45;
+            this.button5.Text = "PÁGINA PRINCIPAL";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Indigo;
+            this.button6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(28, 373);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(118, 59);
+            this.button6.TabIndex = 46;
+            this.button6.Text = "PÁGINA PRINCIPAL";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
             // CadastroDeFadinha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1118,6 +1148,8 @@
         private System.Windows.Forms.ComboBox txtcoor;
         private System.Windows.Forms.ComboBox txtElemento;
         private System.Windows.Forms.ComboBox txtCorAsa;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
