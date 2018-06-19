@@ -12,7 +12,7 @@ namespace Model
         private string familia;
         private string cor;
         private string corAsa;
-        private double tamanhoAsa;
+        private int tamanhoAsa;
         private bool asaQuebrada;
         private bool ehMulher;
         private bool fazBarulho;
@@ -131,7 +131,7 @@ namespace Model
 
 
 
-         public double TamanhoAsa
+         public int TamanhoAsa
          {
              get
              {

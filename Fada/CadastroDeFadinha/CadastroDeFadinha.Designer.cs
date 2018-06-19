@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroDeFadinha));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tbLista = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1Familia = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,10 +58,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnSalvarFadinha = new System.Windows.Forms.Button();
             this.btnCancelarFadinha = new System.Windows.Forms.Button();
-            this.txtElemento = new System.Windows.Forms.TextBox();
             this.txtTamanhoAsa = new System.Windows.Forms.TextBox();
-            this.txtCorAsa = new System.Windows.Forms.TextBox();
-            this.txtCorFadinha = new System.Windows.Forms.TextBox();
             this.txtFamiliaFadinha = new System.Windows.Forms.TextBox();
             this.txtNomeFadinha = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -69,38 +67,40 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtCor = new System.Windows.Forms.TextBox();
+            this.txtCor = new System.Windows.Forms.TabPage();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtFamilia = new System.Windows.Forms.TextBox();
+            this.btnCancelarRapido = new System.Windows.Forms.Button();
+            this.btnSalvarRapido = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.rbFdinhaFeminina = new System.Windows.Forms.RadioButton();
             this.rbFadinhaMasculina = new System.Windows.Forms.RadioButton();
-            this.label10 = new System.Windows.Forms.Label();
-            this.btnSalvarRapido = new System.Windows.Forms.Button();
-            this.btnCancelarRapido = new System.Windows.Forms.Button();
-            this.txtFamilia = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.tbCadastroRapido = new System.Windows.Forms.TabPage();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.txtCorFadinha = new System.Windows.Forms.ComboBox();
+            this.txtcoor = new System.Windows.Forms.ComboBox();
+            this.txtCorAsa = new System.Windows.Forms.ComboBox();
+            this.txtElemento = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tbLista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -108,25 +108,25 @@
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.txtCor.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.tbCadastroRapido.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tbLista);
             this.tabControl1.Controls.Add(this.tbCadastro);
-            this.tabControl1.Controls.Add(this.tbCadastroRapido);
+            this.tabControl1.Controls.Add(this.txtCor);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(16, 22);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
@@ -152,6 +152,20 @@
             this.tbLista.Text = "LISTA";
             this.tbLista.UseVisualStyleBackColor = true;
             this.tbLista.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Indigo;
+            this.button4.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(621, 387);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(247, 59);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "ADICIONAR AO CADASTRO\r RÁPIDO";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridView1
             // 
@@ -258,16 +272,16 @@
             // 
             // tbCadastro
             // 
+            this.tbCadastro.Controls.Add(this.txtElemento);
+            this.tbCadastro.Controls.Add(this.txtCorAsa);
+            this.tbCadastro.Controls.Add(this.txtCorFadinha);
             this.tbCadastro.Controls.Add(this.label15);
             this.tbCadastro.Controls.Add(this.groupBox3);
             this.tbCadastro.Controls.Add(this.groupBox2);
             this.tbCadastro.Controls.Add(this.groupBox1);
             this.tbCadastro.Controls.Add(this.btnSalvarFadinha);
             this.tbCadastro.Controls.Add(this.btnCancelarFadinha);
-            this.tbCadastro.Controls.Add(this.txtElemento);
             this.tbCadastro.Controls.Add(this.txtTamanhoAsa);
-            this.tbCadastro.Controls.Add(this.txtCorAsa);
-            this.tbCadastro.Controls.Add(this.txtCorFadinha);
             this.tbCadastro.Controls.Add(this.txtFamiliaFadinha);
             this.tbCadastro.Controls.Add(this.txtNomeFadinha);
             this.tbCadastro.Controls.Add(this.label9);
@@ -464,15 +478,6 @@
             this.btnCancelarFadinha.UseVisualStyleBackColor = false;
             this.btnCancelarFadinha.Click += new System.EventHandler(this.btnCancelarFadinha_Click);
             // 
-            // txtElemento
-            // 
-            this.txtElemento.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtElemento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtElemento.Location = new System.Drawing.Point(121, 262);
-            this.txtElemento.Name = "txtElemento";
-            this.txtElemento.Size = new System.Drawing.Size(293, 23);
-            this.txtElemento.TabIndex = 20;
-            // 
             // txtTamanhoAsa
             // 
             this.txtTamanhoAsa.BackColor = System.Drawing.SystemColors.WindowFrame;
@@ -481,24 +486,6 @@
             this.txtTamanhoAsa.Name = "txtTamanhoAsa";
             this.txtTamanhoAsa.Size = new System.Drawing.Size(115, 23);
             this.txtTamanhoAsa.TabIndex = 19;
-            // 
-            // txtCorAsa
-            // 
-            this.txtCorAsa.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCorAsa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtCorAsa.Location = new System.Drawing.Point(131, 193);
-            this.txtCorAsa.Name = "txtCorAsa";
-            this.txtCorAsa.Size = new System.Drawing.Size(283, 23);
-            this.txtCorAsa.TabIndex = 18;
-            // 
-            // txtCorFadinha
-            // 
-            this.txtCorFadinha.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCorFadinha.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtCorFadinha.Location = new System.Drawing.Point(72, 159);
-            this.txtCorFadinha.Name = "txtCorFadinha";
-            this.txtCorFadinha.Size = new System.Drawing.Size(184, 23);
-            this.txtCorFadinha.TabIndex = 17;
             // 
             // txtFamiliaFadinha
             // 
@@ -586,13 +573,61 @@
             // 
             // txtCor
             // 
-            this.txtCor.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCor.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtCor.Location = new System.Drawing.Point(170, 229);
+            this.txtCor.BackColor = System.Drawing.Color.White;
+            this.txtCor.Controls.Add(this.txtcoor);
+            this.txtCor.Controls.Add(this.label16);
+            this.txtCor.Controls.Add(this.label14);
+            this.txtCor.Controls.Add(this.label17);
+            this.txtCor.Controls.Add(this.txtNome);
+            this.txtCor.Controls.Add(this.label20);
+            this.txtCor.Controls.Add(this.label18);
+            this.txtCor.Controls.Add(this.txtFamilia);
+            this.txtCor.Controls.Add(this.btnCancelarRapido);
+            this.txtCor.Controls.Add(this.btnSalvarRapido);
+            this.txtCor.Controls.Add(this.label10);
+            this.txtCor.Controls.Add(this.groupBox4);
+            this.txtCor.Controls.Add(this.label11);
+            this.txtCor.Controls.Add(this.label12);
+            this.txtCor.Location = new System.Drawing.Point(4, 25);
+            this.txtCor.Margin = new System.Windows.Forms.Padding(4);
             this.txtCor.Name = "txtCor";
-            this.txtCor.Size = new System.Drawing.Size(184, 27);
-            this.txtCor.TabIndex = 31;
+            this.txtCor.Padding = new System.Windows.Forms.Padding(4);
+            this.txtCor.Size = new System.Drawing.Size(890, 445);
+            this.txtCor.TabIndex = 2;
+            this.txtCor.Text = "CADASTRO RÁPIDO";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Indigo;
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Location = new System.Drawing.Point(121, 235);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(41, 16);
+            this.label16.TabIndex = 39;
+            this.label16.Text = "COR:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Indigo;
+            this.label14.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(173, 25);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(0, 29);
+            this.label14.TabIndex = 35;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Indigo;
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(92, 179);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(72, 16);
+            this.label17.TabIndex = 38;
+            this.label17.Text = "FAMÍLIA:";
             // 
             // txtNome
             // 
@@ -604,16 +639,122 @@
             this.txtNome.Size = new System.Drawing.Size(327, 27);
             this.txtNome.TabIndex = 29;
             // 
-            // label12
+            // label20
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Indigo;
-            this.label12.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(83, 116);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(0, 20);
-            this.label12.TabIndex = 26;
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Indigo;
+            this.label20.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(179, 25);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(561, 29);
+            this.label20.TabIndex = 43;
+            this.label20.Text = "CADASTRE-SE NESTES CAMPOS, FADINHA!\r\n";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Indigo;
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(106, 116);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(56, 16);
+            this.label18.TabIndex = 37;
+            this.label18.Text = "NOME:";
+            // 
+            // txtFamilia
+            // 
+            this.txtFamilia.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtFamilia.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFamilia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtFamilia.Location = new System.Drawing.Point(170, 172);
+            this.txtFamilia.Name = "txtFamilia";
+            this.txtFamilia.Size = new System.Drawing.Size(311, 27);
+            this.txtFamilia.TabIndex = 30;
+            // 
+            // btnCancelarRapido
+            // 
+            this.btnCancelarRapido.BackColor = System.Drawing.Color.Indigo;
+            this.btnCancelarRapido.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarRapido.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCancelarRapido.Location = new System.Drawing.Point(233, 358);
+            this.btnCancelarRapido.Name = "btnCancelarRapido";
+            this.btnCancelarRapido.Size = new System.Drawing.Size(207, 80);
+            this.btnCancelarRapido.TabIndex = 32;
+            this.btnCancelarRapido.Text = "CANCELAR";
+            this.btnCancelarRapido.UseVisualStyleBackColor = false;
+            this.btnCancelarRapido.Click += new System.EventHandler(this.btnCancelarRapido_Click);
+            // 
+            // btnSalvarRapido
+            // 
+            this.btnSalvarRapido.BackColor = System.Drawing.Color.Indigo;
+            this.btnSalvarRapido.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvarRapido.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSalvarRapido.Location = new System.Drawing.Point(478, 358);
+            this.btnSalvarRapido.Name = "btnSalvarRapido";
+            this.btnSalvarRapido.Size = new System.Drawing.Size(207, 80);
+            this.btnSalvarRapido.TabIndex = 33;
+            this.btnSalvarRapido.Text = "SALVAR";
+            this.btnSalvarRapido.UseVisualStyleBackColor = false;
+            this.btnSalvarRapido.Click += new System.EventHandler(this.btnSalvarRapido_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Indigo;
+            this.label10.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(115, 295);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(0, 20);
+            this.label10.TabIndex = 28;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Controls.Add(this.radioButton5);
+            this.groupBox4.Controls.Add(this.radioButton6);
+            this.groupBox4.Location = new System.Drawing.Point(620, 117);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(191, 110);
+            this.groupBox4.TabIndex = 34;
+            this.groupBox4.TabStop = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Indigo;
+            this.label19.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(65, 2);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(61, 20);
+            this.label19.TabIndex = 40;
+            this.label19.Text = "SEXO:";
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.Location = new System.Drawing.Point(30, 55);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(131, 24);
+            this.radioButton5.TabIndex = 42;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "MASCULINO";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.Location = new System.Drawing.Point(30, 25);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(116, 24);
+            this.radioButton6.TabIndex = 41;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "FEMINÍNO";
+            this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -626,16 +767,125 @@
             this.label11.Size = new System.Drawing.Size(0, 20);
             this.label11.TabIndex = 27;
             // 
-            // groupBox4
+            // label12
             // 
-            this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.radioButton5);
-            this.groupBox4.Controls.Add(this.radioButton6);
-            this.groupBox4.Location = new System.Drawing.Point(620, 117);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(191, 110);
-            this.groupBox4.TabIndex = 34;
-            this.groupBox4.TabStop = false;
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Indigo;
+            this.label12.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(83, 116);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(0, 20);
+            this.label12.TabIndex = 26;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.pictureBox9);
+            this.tabPage1.Controls.Add(this.pictureBox8);
+            this.tabPage1.Controls.Add(this.pictureBox7);
+            this.tabPage1.Controls.Add(this.pictureBox6);
+            this.tabPage1.Controls.Add(this.pictureBox5);
+            this.tabPage1.Controls.Add(this.pictureBox4);
+            this.tabPage1.Controls.Add(this.pictureBox3);
+            this.tabPage1.Controls.Add(this.pictureBox2);
+            this.tabPage1.Controls.Add(this.pictureBox1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(890, 445);
+            this.tabPage1.TabIndex = 3;
+            this.tabPage1.Text = "JOOJ";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(755, 288);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(129, 133);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 8;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(827, 209);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(63, 73);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 7;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(743, 114);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(100, 101);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(755, -9);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(140, 138);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(6, 331);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 101);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(47, 209);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(115, 116);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(6, 144);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(63, 59);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(29, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 101);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(85, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(733, 366);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label13
             // 
@@ -672,292 +922,84 @@
             this.rbFadinhaMasculina.Text = "MASCULINO";
             this.rbFadinhaMasculina.UseVisualStyleBackColor = true;
             // 
-            // label10
+            // txtCorFadinha
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Indigo;
-            this.label10.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(115, 295);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(0, 20);
-            this.label10.TabIndex = 28;
+            this.txtCorFadinha.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtCorFadinha.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtCorFadinha.FormattingEnabled = true;
+            this.txtCorFadinha.Items.AddRange(new object[] {
+            "Amarelo",
+            "Azul",
+            "Branco",
+            "Laranja",
+            "Marrom",
+            "Preto",
+            "Roxo",
+            "Verde",
+            "Vermelho"});
+            this.txtCorFadinha.Location = new System.Drawing.Point(72, 158);
+            this.txtCorFadinha.Name = "txtCorFadinha";
+            this.txtCorFadinha.Size = new System.Drawing.Size(342, 24);
+            this.txtCorFadinha.TabIndex = 37;
             // 
-            // btnSalvarRapido
+            // txtcoor
             // 
-            this.btnSalvarRapido.BackColor = System.Drawing.Color.Indigo;
-            this.btnSalvarRapido.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarRapido.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSalvarRapido.Location = new System.Drawing.Point(478, 358);
-            this.btnSalvarRapido.Name = "btnSalvarRapido";
-            this.btnSalvarRapido.Size = new System.Drawing.Size(207, 80);
-            this.btnSalvarRapido.TabIndex = 33;
-            this.btnSalvarRapido.Text = "SALVAR";
-            this.btnSalvarRapido.UseVisualStyleBackColor = false;
-            this.btnSalvarRapido.Click += new System.EventHandler(this.btnSalvarRapido_Click);
+            this.txtcoor.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtcoor.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcoor.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtcoor.FormattingEnabled = true;
+            this.txtcoor.Items.AddRange(new object[] {
+            "Amarelo",
+            "Azul",
+            "Branco",
+            "Laranja",
+            "Marrom",
+            "Preto",
+            "Roxo",
+            "Verde",
+            "Vermelho"});
+            this.txtcoor.Location = new System.Drawing.Point(170, 229);
+            this.txtcoor.Name = "txtcoor";
+            this.txtcoor.Size = new System.Drawing.Size(311, 28);
+            this.txtcoor.TabIndex = 44;
             // 
-            // btnCancelarRapido
+            // txtCorAsa
             // 
-            this.btnCancelarRapido.BackColor = System.Drawing.Color.Indigo;
-            this.btnCancelarRapido.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarRapido.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCancelarRapido.Location = new System.Drawing.Point(233, 358);
-            this.btnCancelarRapido.Name = "btnCancelarRapido";
-            this.btnCancelarRapido.Size = new System.Drawing.Size(207, 80);
-            this.btnCancelarRapido.TabIndex = 32;
-            this.btnCancelarRapido.Text = "CANCELAR";
-            this.btnCancelarRapido.UseVisualStyleBackColor = false;
-            this.btnCancelarRapido.Click += new System.EventHandler(this.btnCancelarRapido_Click);
+            this.txtCorAsa.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtCorAsa.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtCorAsa.FormattingEnabled = true;
+            this.txtCorAsa.Items.AddRange(new object[] {
+            "Amarelo",
+            "Azul",
+            "Branco",
+            "Laranja",
+            "Marrom",
+            "Preto",
+            "Roxo",
+            "Verde",
+            "Vermelho"});
+            this.txtCorAsa.Location = new System.Drawing.Point(136, 192);
+            this.txtCorAsa.Name = "txtCorAsa";
+            this.txtCorAsa.Size = new System.Drawing.Size(278, 24);
+            this.txtCorAsa.TabIndex = 38;
             // 
-            // txtFamilia
+            // txtElemento
             // 
-            this.txtFamilia.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtFamilia.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFamilia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtFamilia.Location = new System.Drawing.Point(170, 172);
-            this.txtFamilia.Name = "txtFamilia";
-            this.txtFamilia.Size = new System.Drawing.Size(311, 27);
-            this.txtFamilia.TabIndex = 30;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Indigo;
-            this.label14.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(173, 25);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(0, 29);
-            this.label14.TabIndex = 35;
-            // 
-            // tbCadastroRapido
-            // 
-            this.tbCadastroRapido.BackColor = System.Drawing.Color.White;
-            this.tbCadastroRapido.Controls.Add(this.label16);
-            this.tbCadastroRapido.Controls.Add(this.label14);
-            this.tbCadastroRapido.Controls.Add(this.label17);
-            this.tbCadastroRapido.Controls.Add(this.txtCor);
-            this.tbCadastroRapido.Controls.Add(this.txtNome);
-            this.tbCadastroRapido.Controls.Add(this.label20);
-            this.tbCadastroRapido.Controls.Add(this.label18);
-            this.tbCadastroRapido.Controls.Add(this.txtFamilia);
-            this.tbCadastroRapido.Controls.Add(this.btnCancelarRapido);
-            this.tbCadastroRapido.Controls.Add(this.btnSalvarRapido);
-            this.tbCadastroRapido.Controls.Add(this.label10);
-            this.tbCadastroRapido.Controls.Add(this.groupBox4);
-            this.tbCadastroRapido.Controls.Add(this.label11);
-            this.tbCadastroRapido.Controls.Add(this.label12);
-            this.tbCadastroRapido.Location = new System.Drawing.Point(4, 25);
-            this.tbCadastroRapido.Margin = new System.Windows.Forms.Padding(4);
-            this.tbCadastroRapido.Name = "tbCadastroRapido";
-            this.tbCadastroRapido.Padding = new System.Windows.Forms.Padding(4);
-            this.tbCadastroRapido.Size = new System.Drawing.Size(890, 445);
-            this.tbCadastroRapido.TabIndex = 2;
-            this.tbCadastroRapido.Text = "CADASTRO RÁPIDO";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Indigo;
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Location = new System.Drawing.Point(121, 235);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 16);
-            this.label16.TabIndex = 39;
-            this.label16.Text = "COR:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Indigo;
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Location = new System.Drawing.Point(92, 179);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 16);
-            this.label17.TabIndex = 38;
-            this.label17.Text = "FAMÍLIA:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Indigo;
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(106, 116);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(56, 16);
-            this.label18.TabIndex = 37;
-            this.label18.Text = "NOME:";
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(30, 55);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(131, 24);
-            this.radioButton5.TabIndex = 42;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "MASCULINO";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(30, 25);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(116, 24);
-            this.radioButton6.TabIndex = 41;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "FEMINÍNO";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Indigo;
-            this.label19.Font = new System.Drawing.Font("Square721 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(65, 2);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(61, 20);
-            this.label19.TabIndex = 40;
-            this.label19.Text = "SEXO:";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Indigo;
-            this.label20.Font = new System.Drawing.Font("Square721 BT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(179, 25);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(561, 29);
-            this.label20.TabIndex = 43;
-            this.label20.Text = "CADASTRE-SE NESTES CAMPOS, FADINHA!\r\n";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Indigo;
-            this.button4.Font = new System.Drawing.Font("Square721 BT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(621, 387);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(247, 59);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "ADICIONAR AO CADASTRO\r RÁPIDO";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.pictureBox9);
-            this.tabPage1.Controls.Add(this.pictureBox8);
-            this.tabPage1.Controls.Add(this.pictureBox7);
-            this.tabPage1.Controls.Add(this.pictureBox6);
-            this.tabPage1.Controls.Add(this.pictureBox5);
-            this.tabPage1.Controls.Add(this.pictureBox4);
-            this.tabPage1.Controls.Add(this.pictureBox3);
-            this.tabPage1.Controls.Add(this.pictureBox2);
-            this.tabPage1.Controls.Add(this.pictureBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(890, 445);
-            this.tabPage1.TabIndex = 3;
-            this.tabPage1.Text = "JOOJ";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(85, 39);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(733, 366);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(29, 28);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 101);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(6, 144);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(63, 59);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(47, 209);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(115, 116);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(6, 331);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 101);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(755, -9);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(140, 138);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(743, 114);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(100, 101);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(827, 209);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(63, 73);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(755, 288);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(129, 133);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
+            this.txtElemento.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtElemento.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.txtElemento.FormattingEnabled = true;
+            this.txtElemento.Items.AddRange(new object[] {
+            "Fogo",
+            "Água",
+            "Gelo",
+            "Terra",
+            "Ar",
+            "Trevas",
+            "Luz"});
+            this.txtElemento.Location = new System.Drawing.Point(121, 260);
+            this.txtElemento.Name = "txtElemento";
+            this.txtElemento.Size = new System.Drawing.Size(278, 24);
+            this.txtElemento.TabIndex = 39;
             // 
             // CadastroDeFadinha
             // 
@@ -980,20 +1022,20 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.txtCor.ResumeLayout(false);
+            this.txtCor.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.tbCadastroRapido.ResumeLayout(false);
-            this.tbCadastroRapido.PerformLayout();
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1017,10 +1059,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnSalvarFadinha;
         private System.Windows.Forms.Button btnCancelarFadinha;
-        private System.Windows.Forms.TextBox txtElemento;
         private System.Windows.Forms.TextBox txtTamanhoAsa;
-        private System.Windows.Forms.TextBox txtCorAsa;
-        private System.Windows.Forms.TextBox txtCorFadinha;
         private System.Windows.Forms.TextBox txtFamiliaFadinha;
         private System.Windows.Forms.TextBox txtNomeFadinha;
         private System.Windows.Forms.Label label9;
@@ -1034,7 +1073,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtCor;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1Familia;
@@ -1042,7 +1080,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1CorAsa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1TamanhoAsa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1Elemento;
-        private System.Windows.Forms.TabPage tbCadastroRapido;
+        private System.Windows.Forms.TabPage txtCor;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtFamilia;
         private System.Windows.Forms.Button btnCancelarRapido;
@@ -1072,6 +1110,10 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ComboBox txtCorFadinha;
+        private System.Windows.Forms.ComboBox txtcoor;
+        private System.Windows.Forms.ComboBox txtElemento;
+        private System.Windows.Forms.ComboBox txtCorAsa;
     }
 }
 

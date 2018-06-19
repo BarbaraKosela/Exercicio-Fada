@@ -55,7 +55,7 @@ namespace CadastroDeFadinha
                     fadinhas.Familia = txtFamiliaFadinha.Text;
                     fadinhas.Cor = txtCorFadinha.Text;
                     fadinhas.CorAsa = txtCorAsa.Text;
-                    fadinhas.TamanhoAsa = Convert.ToDouble(txtTamanhoAsa.Text);
+                    fadinhas.TamanhoAsa = Convert.ToInt32(txtTamanhoAsa.Text);
                     fadinhas.Elemento = txtElemento.Text;
                 };
 
@@ -200,7 +200,7 @@ namespace CadastroDeFadinha
 
                     fadinhas.Nome = txtNome.Text;
                     fadinhas.Familia = txtFamilia.Text;
-                    fadinhas.Cor = txtCor.Text;
+                    fadinhas.Cor = txtcoor.Text;
                     
                 };
 
